@@ -1,0 +1,17 @@
+.square{
+    box-sizing: border-box;
+    border: 1px solid gray;
+    background-color: white;
+    flex: 1;
+    min-height: 48px;
+    min-width: 48px;
+}
+
+.container{
+    display: flex;
+    justify-content: stretch; 
+    background-color: black;
+    height: 768px;
+    width: 768px;
+    flex-wrap: wrap;
+}
