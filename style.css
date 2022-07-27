@@ -1,5 +1,7 @@
 body{
     background-color: #5EB5C2;
+    display: flex;
+    justify-content: center;
 }
 .header{
     display: flex;
@@ -17,16 +19,19 @@ body{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 .buttons{
     display: flex;
     flex-direction: column;
+    align-self: center;
 }
 
 button{
     height: 50px;
     width: 150px;
+    margin-bottom: 10px;
     padding: 5px;
     border: 2px solid #00A682;
     border-radius: 25px;
@@ -50,5 +55,6 @@ button{
     height: 700px;
     width: 700px;
     flex-wrap: wrap;
+    align-self: center;
 }
 
